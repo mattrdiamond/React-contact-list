@@ -1,6 +1,6 @@
 # React Contacts App
 
-This repo is part of an in-class project for the Udacity React Nanodegree.
+This repo is part of an in-class project for the Udacity React Nanodegree. This simple contacts app allows you to search through your contacts by name. You can also remove a contact from the list by clicking the delete button next to their name. React Router is used to manage the apps screens.
 
 ## Project Setup
 

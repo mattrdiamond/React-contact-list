@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import escapeRegExp from "escape-string-regexp";
 import sortBy from "sort-by";
@@ -53,6 +54,15 @@ class ListContacts extends Component {
             // whenever search value changes, call updateQuery and pass in value from input field
             onChange={event => this.updateQuery(event.target.value)}
           />
+          {/*create contact button*/}
+          <Link
+            // react router += '/create' to end of url when clicked
+            to="/create"
+            // onClick={this.props.onNavigate}
+            className="add-contact"
+          >
+            Add Contact
+          </Link>
         </div>
 
         {showingContacts.length !== contacts.length && (
