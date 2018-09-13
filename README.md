@@ -1,6 +1,6 @@
 # React Contacts App
 
-This repo is part of an in-class project from the Udacity React Nanodegree.
+This repo is part of an in-class project for the Udacity React Nanodegree.
 
 ## Project Setup
 
